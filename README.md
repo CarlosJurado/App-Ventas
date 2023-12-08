@@ -22,37 +22,59 @@ El sistema cuenta con las siguientes secciones:
 
 ![ADMIN](public/examples/1.jpg "Panel de permisos de usuarios (disponible solo para administradores)")
 
+- Panel de permisos de usuarios (disponible solo para administradores)
+
 ### Clientes
 
 ![CLIENTES](public/examples/4.jpg "Sección para guardar clientes y enviarlos a la API en Cloud Google para su consulta en tiempo real al momento de realizar una venta")
+
+- Sección para guardar clientes y enviarlos a la API en Cloud Google para su consulta en tiempo real al momento de realizar una venta
 
 ### Compras
 
 ![COMPRAS](public/examples/7.jpg "Sección para agregar compras")
 
+- Sección para agregar compras
+
 ### Ventas
 
 ![VENTAS](public/examples/2.jpg "Sección para ingresar una venta")
 
+- Sección para ingresar una venta
+
 ![VENTAS-1](public/examples/2-1.jpg "Permite buscar clientes guardados en la sección de clientes")
+
+- Permite buscar clientes guardados en la sección de clientes
 
 ![VENTAS-2](public/examples/2-2.jpg "Permite calcular el precio por unidades o por peso y realiza la validación del campo correspondiente")
 
+- Permite calcular el precio por unidades o por peso y realiza la validación del campo correspondiente
+
 ![VENTAS-3](public/examples/2-3.jpg "Verifica que exista un producto añadido en la lista antes de guardar la venta")
 
+- Verifica que exista un producto añadido en la lista antes de guardar la venta
+
 ![VENTAS-4](public/examples/2-4.jpg "Producto añadido a la lista y venta guardada")
+
+- Producto añadido a la lista y venta guardada
 
 ### Descuentos
 
 ![DESCUENTO](public/examples/3.jpg "Permite añadir descuentos en una sección independiente para anexarlos a los reportes y verificarlos")
 
+- Permite añadir descuentos en una sección independiente para anexarlos a los reportes y verificarlos
+
 ### Reportes
 
 ![REPORTES](public/examples/5.jpg "Se pueden generar reportes de ventas utilizando filtros de fechas y vendedor")
 
+- Se pueden generar reportes de ventas utilizando filtros de fechas y vendedor
+
 ### Inventario
 
 ![INVENTARIO](public/examples/5.jpg "El módulo inventario realiza el calculo de las compras y las ventas realizadas")
+
+- El módulo inventario realiza el calculo de las compras y las ventas realizadas
 
 ## AdminLTE
 
