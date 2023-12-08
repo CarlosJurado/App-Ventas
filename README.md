@@ -20,39 +20,39 @@ El sistema cuenta con las siguientes secciones:
 
 ### Administración de Usuarios
 
-![ADMIN](pulic/examples/1.jpg "Panel de permisos de usuarios (disponible solo para administradores)")
+![ADMIN](public/examples/1.jpg "Panel de permisos de usuarios (disponible solo para administradores)")
 
 ### Clientes
 
-![CLIENTES](pulic/examples/4.jpg "Sección para guardar clientes y enviarlos a la API en Cloud Google para su consulta en tiempo real al momento de realizar una venta")
+![CLIENTES](public/examples/4.jpg "Sección para guardar clientes y enviarlos a la API en Cloud Google para su consulta en tiempo real al momento de realizar una venta")
 
 ### Compras
 
-![COMPRAS](pulic/examples/7.jpg "Sección para agregar compras")
+![COMPRAS](public/examples/7.jpg "Sección para agregar compras")
 
 ### Ventas
 
-![VENTAS](pulic/examples/2.jpg "Sección para ingresar una venta")
+![VENTAS](public/examples/2.jpg "Sección para ingresar una venta")
 
-![VENTAS-1](pulic/examples/2-1.jpg "Permite buscar clientes guardados en la sección de clientes")
+![VENTAS-1](public/examples/2-1.jpg "Permite buscar clientes guardados en la sección de clientes")
 
-![VENTAS-2](pulic/examples/2-2.jpg "Permite calcular el precio por unidades o por peso y realiza la validación del campo correspondiente")
+![VENTAS-2](public/examples/2-2.jpg "Permite calcular el precio por unidades o por peso y realiza la validación del campo correspondiente")
 
-![VENTAS-3](pulic/examples/2-3.jpg "Verifica que exista un producto añadido en la lista antes de guardar la venta")
+![VENTAS-3](public/examples/2-3.jpg "Verifica que exista un producto añadido en la lista antes de guardar la venta")
 
-![VENTAS-4](pulic/examples/2-4.jpg "Producto añadido a la lista y venta guardada")
+![VENTAS-4](public/examples/2-4.jpg "Producto añadido a la lista y venta guardada")
 
 ### Descuentos
 
-![DESCUENTO](pulic/examples/3.jpg "Permite añadir descuentos en una sección independiente para anexarlos a los reportes y verificarlos")
+![DESCUENTO](public/examples/3.jpg "Permite añadir descuentos en una sección independiente para anexarlos a los reportes y verificarlos")
 
 ### Reportes
 
-![REPORTES](pulic/examples/5.jpg "Se pueden generar reportes de ventas utilizando filtros de fechas y vendedor")
+![REPORTES](public/examples/5.jpg "Se pueden generar reportes de ventas utilizando filtros de fechas y vendedor")
 
 ### Inventario
 
-![INVENTARIO](pulic/examples/5.jpg "El módulo inventario realiza el calculo de las compras y las ventas realizadas")
+![INVENTARIO](public/examples/5.jpg "El módulo inventario realiza el calculo de las compras y las ventas realizadas")
 
 ## AdminLTE
 
