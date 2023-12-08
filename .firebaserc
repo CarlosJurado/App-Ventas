@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "quesos": "app-ventas",
+    "default": "app-ventas"
+  }
+}
