@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "quesos-mg",
+    "test": "quesos-mg",
+    "quesos": "quesos-mg"
+  }
+}

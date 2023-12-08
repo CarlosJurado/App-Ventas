@@ -1,6 +1,74 @@
 Sistema de Ventas e Inventario creado con React [Create React App](https://github.com/facebook/create-react-app).
 
-## Scripts Disponibles
+# DESCRIPCION
+
+El sistema maneja todo el flujo de inventarios incluyendo:
+
+- Clientes
+- Compras
+- Ventas
+- Descuentos
+- Pedidos
+- Rutas
+- Devoluciones
+- Recepciones
+- Reportes
+
+## SECCIONES
+
+El sistema cuenta con las siguientes secciones:
+
+### Administración de Usuarios
+
+![ADMIN](/examples/1.jpg "Panel de permisos de usuarios (disponible solo para administradores)")
+
+### Clientes
+
+![CLIENTES](/examples/4.jpg "Sección para guardar clientes y enviarlos a la API en Cloud Google para su consulta en tiempo real al momento de realizar una venta")
+
+### Compras
+
+![COMPRAS](/examples/7.jpg "Sección para agregar compras")
+
+### Ventas
+
+![VENTAS](/examples/2.jpg "Sección para ingresar una venta")
+
+![VENTAS-1](/examples/2-1.jpg "Permite buscar clientes guardados en la sección de clientes")
+
+![VENTAS-2](/examples/2-2.jpg "Permite calcular el precio por unidades o por peso y realiza la validación del campo correspondiente")
+
+![VENTAS-3](/examples/2-3.jpg "Verifica que exista un producto añadido en la lista antes de guardar la venta")
+
+![VENTAS-4](/examples/2-4.jpg "Producto añadido a la lista y venta guardada")
+
+### Descuentos
+
+![DESCUENTO](/examples/3.jpg "Permite añadir descuentos en una sección independiente para anexarlos a los reportes y verificarlos")
+
+### Reportes
+
+![REPORTES](/examples/5.jpg "Se pueden generar reportes de ventas utilizando filtros de fechas y vendedor")
+
+### Inventario
+
+![INVENTARIO](/examples/5.jpg "El módulo inventario realiza el calculo de las compras y las ventas realizadas")
+
+## AdminLTE
+
+EL sistema utiliza la plantilla [AdminLTE](https://adminlte.io/),
+AdminLTE es un tema de panel de control y panel de administración de código abierto construido sobre Bootstrap.
+
+## Firebase
+
+Se utiliza [Firebase](https://firebase.google.com/) para bases de datos en tiempo real,
+autenticación de usuarios y backend a través de Functions.
+
+## Cloud Funtions
+
+La carpeta Usuarios debe ser desplegada de forma independiente a través de [Cloud Functions](https://firebase.google.com/docs/functions?hl=es-419)
+
+# Scripts Disponibles
 
 En el proyecto del directorio, puede ejecutar:
 
@@ -19,50 +87,9 @@ Ver la sección sobre [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Crea la aplicación para producción en la carpeta `build`<br />
+Esto optimiza la compilación para obtener el mejor rendimiento.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Despliegue
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Se pueden encontrar las opciones de despliegue aquí: https://firebase.google.com/docs/hosting?hl=es-419
